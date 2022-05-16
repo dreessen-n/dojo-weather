@@ -5,3 +5,53 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.wrapper {
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+/* header section  */
+
+.header {
+    display: flex;
+    background-color: seagreen;
+    display: flex;
+    flex: 1 0 auto;
+    height: 150px;
+}
+
+.nav {}
+
+/* main section  */
+
+.main {
+    display: flex;
+    flex: 1;
+    background-color: red;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.content-header {
+    display: flex;
+    flex: 1 0 auto;
+    height: 150px;
+    background-color: purple;
+}
+
+.day-selection {
+    background-color: blue;
+}
+
+.box-today {}
+
+.box-tomorrow {}
+
+.box-Friday {}
+
+.box-Sat {} 
+
+
