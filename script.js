@@ -6,7 +6,7 @@ function remove(a) {
 }
 
 function loadWeather() {
-    alert('Loading weather reort...')
+    alert('Loading weather report...')
 }
 
 
