@@ -8,7 +8,3 @@ function remove(a) {
 function loadWeather() {
     alert('Loading weather reort...')
 }
-
-function tempChange {
-    if 
-}
