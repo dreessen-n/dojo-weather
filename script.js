@@ -4,3 +4,7 @@ function remove(a) {
     console.log(r);
     r.remove();
 }
+
+function loadWeather() {
+    alert('Loading weather reort...')
+}

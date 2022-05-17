@@ -19,13 +19,15 @@
     <div class="wrapper">
         <div class="nav">
             <h1>DojoWeather</h1>
-            <ul class="li">city</ul>
-            <ul class="li">city</ul>
-            <ul class="li">city</ul>
+            <ul class="nav-city">
+                <li class="nav-cities" onclick="loadWeather()">Boulder</li>
+                <li class="nav-cities" onclick="loadWeather()">Crestone</li>
+                <li class="nav-cities" onclick="loadWeather()">Denver</li>
+            </ul>
         </div>
         <div class="main">
             <div class="city-container">
-                <h2 class="city">Crestone</h2>
+                <h2 class="city" onclick="loadWeather()">Crestone</h2>
                 <div class="temp-container">
                     <label class="temp" for="temp">show temperature in </label>
                     <select name="temp" id="degrees">

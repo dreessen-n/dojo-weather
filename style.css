@@ -7,11 +7,11 @@
 }
 
 .wrapper {
-    width: 950px;
     display: flex;
     flex-direction: column;
     margin: 0px auto;
-    padding: 15px;
+    padding-bottom: 15px;
+    align-items: center;
 }
 
 /* header section  */
@@ -19,11 +19,26 @@
 .nav {
     display: flex;
     flex: 1 0 auto;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     height: 40px;
     background-color: lightcyan;
+    padding: 30px;
 }
+
+ul.nav-city {
+    display: flex;
+    list-style-type: none;
+}
+
+li.nav-cities {
+    display: flex;  
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
 
 /* main section  */
 
@@ -31,23 +46,28 @@
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    background-color: red;
+    width: 750px;
     margin-top: 15px;
     padding: 20px;
 }
+
+/* city section for main area  */
 
 .city-container {
     display: flex;
     flex: 1 0 auto;
     justify-content: flex-end;
     align-items: center;
-    background-color: lightgoldenrodyellow;
     height: 50px;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .city {
     display: flex;
     flex: 1 0 auto;
+    font-size: 30px;
     padding-left: 20px;
 }
 
@@ -62,6 +82,8 @@
     display: flex;
     padding-right: 10px;
 }
+
+/* day forcast section */
 
 .day-section {
     display: flex;
