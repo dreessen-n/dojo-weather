@@ -30,7 +30,7 @@
                 <h2 class="city" onclick="loadWeather()">Crestone</h2>
                 <div class="temp-container">
                     <label class="temp" for="temp">show temperature in </label>
-                    <select name="temp" id="degrees">
+                    <select name="temp" id="degrees" onchange="changeTemps(this)">
                         <option value="c">&#8451;</option>
                         <option value="f">&#8457;</option>
                     </select>
@@ -42,8 +42,8 @@
                     <img src="./assets/some_rain.png" alt="rain image">
                     <p>some rain</p>
                     <div class="box-temp-cont">
-                        <p class="high-temp">24&deg;</p>
-                        <p class="low-temp">18&deg;</p>
+                        <p id="h1" class="high-temp">24&deg;</p>
+                        <p id="l1" class="low-temp">18&deg;</p>
                     </div>
                 </div>
                 <div class="box tomorrow">
@@ -51,8 +51,8 @@
                     <img src="./assets/some_sun.png" alt="some sun image">
                     <p>some sun</p>
                     <div class="box-temp-cont">
-                        <p class="high-temp">27&deg;</p>
-                        <p class="low-temp">19&deg;</p>
+                        <p id="h2" class="high-temp">27&deg;</p>
+                        <p id="l2" class="low-temp">19&deg;</p>
                     </div>
                 </div>
                 <div class="box Friday">
@@ -60,8 +60,8 @@
                     <img src="./assets/some_clouds.png" alt="some clouds image">
                     <p>some clouds</p>
                     <div class="box-temp-cont">
-                        <p class="high-temp">21&deg;</p>
-                        <p class="low-temp">16&deg;</p>
+                        <p id="h3" class="high-temp">21&deg;</p>
+                        <p id="l3" class="low-temp">16&deg;</p>
                     </div>
                 </div>
                 <div class="box Sat">
@@ -69,8 +69,8 @@
                     <img src="./assets/some_sun.png" alt="some sun image">
                     <p>some sun</p>
                     <div class="box-temp-cont">
-                        <p class="high-temp">26&deg;</p>
-                        <p class="low-temp">21&deg;</p>
+                        <p id="h4" class="high-temp">26&deg;</p>
+                        <p id="l4" class="low-temp">21&deg;</p>
                     </div>
                 </div>
             </div>
