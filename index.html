@@ -9,18 +9,28 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="nav"></div>
+        <div class="nav">
+            <h1>DojoWeather</h1>
+            <ul class="li">city</ul>
+            <ul class="li">city</ul>
+            <ul class="li">city</ul>
         </div>
         <div class="main">
-            <div class="main_container">
-                <div class="content-header"></div>
-                <div class="day-section">
-                    <div class="box-today"></div>
-                    <div class="box-tomorrow"></div>
-                    <div class="box-Friday"></div>
-                    <div class="box-Sat"></div>
+            <div class="city-container">
+                <h2 class="city">Crestone</h2>
+                <div class="temp-container">
+                    <label class="temp" for="temp">show temperature in </label>
+                    <select name="temp" id="degrees">
+                        <option value="f">farienheit</option>
+                        <option value="c">Celcius</option>
+                    </select>
                 </div>
+            </div>
+            <div class="day-section">
+                <div class="box-today"></div>
+                <div class="box-tomorrow"></div>
+                <div class="box-Friday"></div>
+                <div class="box-Sat"></div>
             </div>
         </div>
     </div>
