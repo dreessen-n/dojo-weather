@@ -104,10 +104,9 @@ li.nav-cities {
     flex: 1 0;
     flex-direction: column;
     align-items: center;
-    height: 300px;
     background-color: lightgrey;
     justify-content: flex-start;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
 }
 
@@ -141,6 +140,29 @@ div.box > img {
 
 div.box > p {
     margin-top: 10px;
+}
+
+div.box-temp-cont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.high-temp {
+    display: flex;
+    flex: 1 0 auto;
+    width: 50px;
+    justify-content: center;
+    color: red;
+}
+
+p.low-temp {
+    display: flex;
+    flex: 1 0 auto;
+    width: 50px;
+    justify-content: center;
+    color: blue;
 }
 
 /* cookie section  */
